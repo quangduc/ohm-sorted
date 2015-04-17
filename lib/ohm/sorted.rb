@@ -103,7 +103,7 @@ module Ohm
       end
     end
   else
-    class SortedSet < Model::Collection
+    class SortedSet < Collection
       include Ohm::SortedMethods
 
       def db
